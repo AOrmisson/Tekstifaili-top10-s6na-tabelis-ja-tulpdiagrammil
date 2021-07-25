@@ -37,7 +37,6 @@ for i in high:
     print(i[0]," :",i[1]," ")
 #Otsisin välja top10 enim esinevat sõna ja prindin need välja tabelina
 
-import pandas as pd
 import matplotlib.pyplot as plot
 
 Top10 = dict(C.most_common(10))
